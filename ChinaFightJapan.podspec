@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ChinaFightJapan'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ChinaFightJapan.'
+  s.summary          = '第一次使用CocoaPods创建公有库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jiruxue82@gmail.com/ChinaFightJapan'
+  s.homepage         = 'https://github.com/jiruxue82/LOLProgram.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jiruxue82@gmail.com' => 'jiruxue82@gmail.com' }
-  s.source           = { :git => 'https://github.com/jiruxue82@gmail.com/ChinaFightJapan.git', :tag => s.version.to_s }
+  s.author           = { '姬如雪' => 'jiruxue82@gmail.com' }
+  s.source           = { :git => 'https://github.com/jiruxue82/LOLProgram.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ChinaFightJapan/Classes/**/*'
-  
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'ChinaFightJapan' => ['ChinaFightJapan/Assets/*.png']
   # }

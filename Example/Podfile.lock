@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChinaFightJapan: c408f68c90293d7b45b610d9b6761164e5bf6ee5
+  ChinaFightJapan: b12bb31fa919598659b0d73dc71c6b22d22c09f0
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
