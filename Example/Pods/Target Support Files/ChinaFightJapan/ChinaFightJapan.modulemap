@@ -1,0 +1,6 @@
+framework module ChinaFightJapan {
+  umbrella header "ChinaFightJapan-umbrella.h"
+
+  export *
+  module * { export * }
+}
