@@ -11,7 +11,7 @@ import Speech
 class HelloWorld: NSObject {
 
     public class func sayHelloWorld() {
-        print("hello----world")
+        print("hello----")
     }
     
 }
