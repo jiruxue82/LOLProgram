@@ -1453,6 +1453,37 @@
 			};
 			name = Debug;
 		};
+		2F83FA4679EEE9D281F0EEDBEED44E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3B32DE90FD415974D22DA0F016D668 /* ChinaFightJapan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChinaFightJapan/ChinaFightJapan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChinaFightJapan/ChinaFightJapan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChinaFightJapan/ChinaFightJapan.modulemap";
+				PRODUCT_MODULE_NAME = ChinaFightJapan;
+				PRODUCT_NAME = ChinaFightJapan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3B3FC530059B3A302E2DD9679160C4B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C65C2A652942BA90EE4738EA528F7A0 /* Nimble-Snapshots.xcconfig */;
@@ -1614,37 +1645,6 @@
 			};
 			name = Release;
 		};
-		8AAAF23049A25FFDD190BF1A7A0ED9B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE3B32DE90FD415974D22DA0F016D668 /* ChinaFightJapan.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ChinaFightJapan/ChinaFightJapan-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChinaFightJapan/ChinaFightJapan-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ChinaFightJapan/ChinaFightJapan.modulemap";
-				PRODUCT_MODULE_NAME = ChinaFightJapan;
-				PRODUCT_NAME = ChinaFightJapan;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		91D1BF55A92A633F4B608634D842DF91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F385298F6733BCD279D25D2EE5DF5A60 /* Pods-ChinaFightJapan_Tests.debug.xcconfig */;
@@ -1678,7 +1678,7 @@
 			};
 			name = Debug;
 		};
-		999C5DCFEBB86EDCFDA799C0028313AC /* Release */ = {
+		9BE5B9B614FE07C71DDBBE5601309BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE3B32DE90FD415974D22DA0F016D668 /* ChinaFightJapan.xcconfig */;
 			buildSettings = {
@@ -1702,7 +1702,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1997,8 +1997,8 @@
 		60BB628103DABFA735FDD2EE4BF86EA9 /* Build configuration list for PBXNativeTarget "ChinaFightJapan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8AAAF23049A25FFDD190BF1A7A0ED9B8 /* Debug */,
-				999C5DCFEBB86EDCFDA799C0028313AC /* Release */,
+				2F83FA4679EEE9D281F0EEDBEED44E9D /* Debug */,
+				9BE5B9B614FE07C71DDBBE5601309BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
