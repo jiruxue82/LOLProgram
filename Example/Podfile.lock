@@ -1,5 +1,5 @@
 PODS:
-  - ChinaFightJapan (1.0.1):
+  - ChinaFightJapan (1.0.3):
     - SnapKit
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChinaFightJapan: 1102443218203cf8d597301993aba335745e7864
+  ChinaFightJapan: f9851c22dc60b15bc101aba570b22bd17751845a
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
