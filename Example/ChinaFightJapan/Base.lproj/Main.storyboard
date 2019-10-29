@@ -20,9 +20,74 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MNK-QN-CXl">
+                                <rect key="frame" x="37.5" y="258.5" width="300" height="150"/>
+                                <color key="backgroundColor" red="0.5450980392" green="0.54901960780000003" blue="0.56862745100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="1uV-IN-Gsf"/>
+                                    <constraint firstAttribute="height" constant="150" id="3w6-yM-jEu"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugO-7L-Fug">
+                                <rect key="frame" x="37.5" y="428.5" width="300" height="30"/>
+                                <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="lO1-VX-ud8"/>
+                                </constraints>
+                                <state key="normal" title="播放视频">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playInView:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ke1-Vu-XTh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ca3-lc-pXi">
+                                <rect key="frame" x="37.5" y="528.5" width="300" height="30"/>
+                                <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="h3O-pl-g3l"/>
+                                </constraints>
+                                <state key="normal" title="直接全屏播放(下载好的)">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="palyInFullScreenClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vOC-5S-DnQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEr-mv-hvQ">
+                                <rect key="frame" x="37.5" y="478.5" width="300" height="30"/>
+                                <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bPn-4Y-agq"/>
+                                </constraints>
+                                <state key="normal" title="cell上播放">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="playInCell:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7T2-KB-KsZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="MNK-QN-CXl" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="8fG-ML-so1"/>
+                            <constraint firstItem="ugO-7L-Fug" firstAttribute="top" secondItem="MNK-QN-CXl" secondAttribute="bottom" constant="20" id="AWu-Mr-gmZ"/>
+                            <constraint firstItem="ca3-lc-pXi" firstAttribute="centerX" secondItem="hEr-mv-hvQ" secondAttribute="centerX" id="Eye-7G-mJu"/>
+                            <constraint firstItem="ugO-7L-Fug" firstAttribute="width" secondItem="MNK-QN-CXl" secondAttribute="width" id="GOR-AA-Laz"/>
+                            <constraint firstItem="MNK-QN-CXl" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="O7i-Ye-4Ha"/>
+                            <constraint firstItem="hEr-mv-hvQ" firstAttribute="top" secondItem="ugO-7L-Fug" secondAttribute="bottom" constant="20" id="YSs-DK-YiT"/>
+                            <constraint firstItem="ca3-lc-pXi" firstAttribute="width" secondItem="hEr-mv-hvQ" secondAttribute="width" id="bA1-yP-yg5"/>
+                            <constraint firstItem="ca3-lc-pXi" firstAttribute="top" secondItem="hEr-mv-hvQ" secondAttribute="bottom" constant="20" id="byN-m9-7yi"/>
+                            <constraint firstItem="ugO-7L-Fug" firstAttribute="centerX" secondItem="MNK-QN-CXl" secondAttribute="centerX" id="kxy-QX-kVO"/>
+                            <constraint firstItem="hEr-mv-hvQ" firstAttribute="width" secondItem="ugO-7L-Fug" secondAttribute="width" id="lFa-G5-B5M"/>
+                            <constraint firstItem="hEr-mv-hvQ" firstAttribute="centerX" secondItem="ugO-7L-Fug" secondAttribute="centerX" id="qly-ib-A0k"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="5Hr-wb-OZm"/>
+                    <connections>
+                        <outlet property="playInFullScreen" destination="ca3-lc-pXi" id="bGk-Li-mLm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

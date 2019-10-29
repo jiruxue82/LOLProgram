@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0468A5B72368423D000B2164 /* PlayCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5B62368423D000B2164 /* PlayCellVC.swift */; };
+		0468A5B923684271000B2164 /* PlayVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5B823684271000B2164 /* PlayVideoVC.swift */; };
+		0468A5BB236842FB000B2164 /* DownloadVideoPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5BA236842FB000B2164 /* DownloadVideoPlayerVC.swift */; };
+		0468A5BF236843C4000B2164 /* CustomMuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5BC236843C4000B2164 /* CustomMuneView.swift */; };
+		0468A5C0236843C4000B2164 /* NicooVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0468A5BD236843C4000B2164 /* NicooVideoCell.xib */; };
+		0468A5C1236843C4000B2164 /* NicooVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5BE236843C4000B2164 /* NicooVideoCell.swift */; };
+		0468A5C423684493000B2164 /* hubblecast.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 0468A5C323684493000B2164 /* hubblecast.m4v */; };
+		0468A5C62368449F000B2164 /* localFile.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0468A5C52368449F000B2164 /* localFile.mp4 */; };
+		0468A5C823684765000B2164 /* PlayDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468A5C723684765000B2164 /* PlayDetailVC.swift */; };
 		4469B82D371AB6FE69344774 /* Pods_ChinaFightJapan_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40793BDECEFD211F38512752 /* Pods_ChinaFightJapan_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0468A5B62368423D000B2164 /* PlayCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayCellVC.swift; sourceTree = "<group>"; };
+		0468A5B823684271000B2164 /* PlayVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVideoVC.swift; sourceTree = "<group>"; };
+		0468A5BA236842FB000B2164 /* DownloadVideoPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadVideoPlayerVC.swift; sourceTree = "<group>"; };
+		0468A5BC236843C4000B2164 /* CustomMuneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMuneView.swift; sourceTree = "<group>"; };
+		0468A5BD236843C4000B2164 /* NicooVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NicooVideoCell.xib; sourceTree = "<group>"; };
+		0468A5BE236843C4000B2164 /* NicooVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NicooVideoCell.swift; sourceTree = "<group>"; };
+		0468A5C323684493000B2164 /* hubblecast.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = hubblecast.m4v; sourceTree = "<group>"; };
+		0468A5C52368449F000B2164 /* localFile.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = localFile.mp4; sourceTree = "<group>"; };
+		0468A5C723684765000B2164 /* PlayDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayDetailVC.swift; sourceTree = "<group>"; };
 		070224B166A03BF284247A7A /* Pods-ChinaFightJapan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChinaFightJapan_Example.release.xcconfig"; path = "Target Support Files/Pods-ChinaFightJapan_Example/Pods-ChinaFightJapan_Example.release.xcconfig"; sourceTree = "<group>"; };
 		40793BDECEFD211F38512752 /* Pods_ChinaFightJapan_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChinaFightJapan_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ChinaFightJapan_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinaFightJapan_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +87,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0468A5C923684777000B2164 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				0468A5B62368423D000B2164 /* PlayCellVC.swift */,
+				0468A5B823684271000B2164 /* PlayVideoVC.swift */,
+				0468A5BA236842FB000B2164 /* DownloadVideoPlayerVC.swift */,
+				0468A5C723684765000B2164 /* PlayDetailVC.swift */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		0468A5CA23684788000B2164 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0468A5BC236843C4000B2164 /* CustomMuneView.swift */,
+				0468A5BE236843C4000B2164 /* NicooVideoCell.swift */,
+				0468A5BD236843C4000B2164 /* NicooVideoCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		10E835DFE0B541F7C07AF389 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,11 +144,14 @@
 		607FACD21AFB9204008FA782 /* Example for ChinaFightJapan */ = {
 			isa = PBXGroup;
 			children = (
+				0468A5C923684777000B2164 /* VC */,
+				0468A5CA23684788000B2164 /* Views */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				0468A5C323684493000B2164 /* hubblecast.m4v */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				0468A5C52368449F000B2164 /* localFile.mp4 */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ChinaFightJapan";
@@ -248,7 +291,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				0468A5C423684493000B2164 /* hubblecast.m4v in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0468A5C62368449F000B2164 /* localFile.mp4 in Resources */,
+				0468A5C0236843C4000B2164 /* NicooVideoCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +405,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				0468A5B72368423D000B2164 /* PlayCellVC.swift in Sources */,
+				0468A5BB236842FB000B2164 /* DownloadVideoPlayerVC.swift in Sources */,
+				0468A5B923684271000B2164 /* PlayVideoVC.swift in Sources */,
+				0468A5BF236843C4000B2164 /* CustomMuneView.swift in Sources */,
+				0468A5C1236843C4000B2164 /* NicooVideoCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0468A5C823684765000B2164 /* PlayDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
