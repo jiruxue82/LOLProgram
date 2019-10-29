@@ -1,5 +1,6 @@
 PODS:
-  - ChinaFightJapan (0.1.1)
+  - ChinaFightJapan (1.0.0):
+    - SnapKit
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -12,6 +13,7 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - ChinaFightJapan (from `../`)
@@ -26,17 +28,19 @@ SPEC REPOS:
     - Nimble
     - Nimble-Snapshots
     - Quick
+    - SnapKit
 
 EXTERNAL SOURCES:
   ChinaFightJapan:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ChinaFightJapan: 6ee3170e5ca9df518f15547870027b50aa5ff7dc
+  ChinaFightJapan: 04790793cb23f3230f8cf794dbe2db0f02a0721a
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
 PODFILE CHECKSUM: e03760c3597494d0818dbd30f2a1af0768ac3321
 
