@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ChinaFightJapan/Classes/**/*'
   s.swift_version = '4.2'
-  # s.resource_bundles = {
-  #   'ChinaFightJapan' => ['ChinaFightJapan/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'ChinaFightJapan' => ['ChinaFightJapan/Assets/*.png']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
