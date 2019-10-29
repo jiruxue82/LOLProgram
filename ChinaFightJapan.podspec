@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ChinaFightJapan'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '第一次使用CocoaPods创建公有库'
 
 # This description is used to generate tags and improve search results.
